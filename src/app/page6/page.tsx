@@ -24,15 +24,12 @@ const TestPage1: React.FC = () => {
               1 ......Executive Summary
             </div>
             <div className="absolute left-[1.47in] top-[0.8in] z-[2] text-[#4b5846] font-[Diagramm-Medium] text-[13pt] leading-[23pt]">
-              {/* @ISSUE: seperate    8 ........Attachment A into <span>8</span> <span>........Attachment A</span> */}
-              {/* @ISSUE: remove br tag use other tag for newline like u can use p tag, div tag etc*/}
-              {/* Reason: we need to make it pure dynamic in future */}
-              8 ........Attachment A<br />
-              12 ......Summary of Stated Evaluation Criteria<br />
-              14 ......Why Ojiibik + In Addition<br />
-              16 ......Phases of Production<br />
-              18 ......Your Delivery Team<br />
-              24 ......Our Six Step Process
+              <p>8 ........Attachment A</p>
+              <p>12 ......Summary of Stated Evaluation Criteria</p>
+              <p>14 ......Why Ojiibik + In Addition</p>
+              <p>16 ......Phases of Production</p>
+              <p>18 ......Your Delivery Team</p>
+              <p>24 ......Our Six Step Process</p>
             </div>
           </div>
 
@@ -49,9 +46,9 @@ const TestPage1: React.FC = () => {
               2 .....Product Solution
             </div>
             <div className="absolute left-[1.47in] top-[3.17in] z-[2] text-[#4b5846] font-[Diagramm-Medium] text-[13pt] leading-[23pt]">
-              28 .....Floor Plans <br />
-              31 ......Renderings <br />
-              38 .....Lookbook
+              <p>28 .....Floor Plans</p>
+              <p>31 ......Renderings</p>
+              <p>38 .....Lookbook</p>
             </div>
           </div>
 
@@ -68,10 +65,10 @@ const TestPage1: React.FC = () => {
               3 .....Financial Proposal
             </div>
             <div className="absolute left-[1.47in] top-[4.69in] z-[2] text-[#4b5846] font-[Diagramm-Medium] text-[13pt] leading-[23pt]">
-              102 ....Project Timeline <br />
-              104 ....Terms and Conditions <br />
-              106 ... Warranties <br />
-              112 .....Letters of Recommendations
+              <p>102 ....Project Timeline</p>
+              <p>104 ....Terms and Conditions</p>
+              <p>106 ... Warranties</p>
+              <p>112 .....Letters of Recommendations</p>
             </div>
           </div>
 
@@ -88,8 +85,8 @@ const TestPage1: React.FC = () => {
               4 .....Corporate Info
             </div>
             <div className="absolute left-[1.47in] top-[6.55in] z-[2] text-[#4b5846] font-[Diagramm-Medium] text-[13pt] leading-[23pt]">
-              116 .....Exclusive Insight <br />
-              120 ....Case Studies
+              <p>116 .....Exclusive Insight</p>
+              <p>120 ....Case Studies</p>
             </div>
           </div>
 
@@ -106,10 +103,10 @@ const TestPage1: React.FC = () => {
               5 .....Environment and Sustainability
             </div>
             <div className="absolute left-[1.47in] top-[7.75in] z-[2] text-[#4b5846] font-[Diagramm-Medium] text-[13pt] leading-[23pt]">
-              124 .....Diversity, Equity, and Inclusion + Claims and Flexibility <br />
-              126 ....Accessibility and Ergonomics + Quality Management <br />
-              128 ....Sustainability Strategy + Furniture Decommissioning <br />
-              130 ....Foundation Programs + LEED &amp; WELL
+              <p>124 .....Diversity, Equity, and Inclusion + Claims and Flexibility</p>
+              <p>126 ....Accessibility and Ergonomics + Quality Management</p>
+              <p>128 ....Sustainability Strategy + Furniture Decommissioning</p>
+              <p>130 ....Foundation Programs + LEED &amp; WELL</p>
             </div>
           </div>
         </div>
@@ -117,11 +114,10 @@ const TestPage1: React.FC = () => {
         <Image
           src="/images/page6/content.png"
           alt="Content Watermark"
-          width={200}   
-          height={800} 
+          width={200}
+          height={800}
           className="absolute left-[7in] top-[0in] w-[1.5in] h-[10.5533in] select-none"
         />
-
       </LetterPage>
     </div>
   );

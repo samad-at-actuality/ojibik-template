@@ -67,9 +67,8 @@ const Page39: React.FC = () => {
           {/* Right spec block */}
           <div className="absolute left-[6.124in] top-[0.8681in] w-[2.1in] text-[#4b5846]">
             <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[18pt]">
-              Quorum
-              <br />
-              Multiconference
+             <p> Quorum</p>
+            <p>Multiconference </p>
             </div>
             <div className="mt-2 text-[#333] z-1">
               <div className="font-[Diagramm-Regular] text-[8.5pt] leading-[11pt]">
@@ -126,7 +125,7 @@ const Page39: React.FC = () => {
             </div>
           </div>
 
-              {/* teknion logo */}
+              {/* top logo */}
             <Image
               src="/icons/teknion.png"
               alt="Teknion Logo"
@@ -140,7 +139,7 @@ const Page39: React.FC = () => {
           <div className="absolute left-[0.7558in] top-[8.9351in] ">          
             <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
               Expansion Learning Table
-              <div className="mt-2 h-[1px] w-[3.405in] bg-[#4b5846]" />
+              <div className="mt-2 h-[2px] w-[3.405in] bg-[#4b5846]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
@@ -167,7 +166,7 @@ const Page39: React.FC = () => {
               />
             </div>
           </div>
-             {/* logo */}
+             {/* bottom logo */}
             <Image
               src="/icons/spec.png"
               alt="spec Logo"
@@ -182,7 +181,7 @@ const Page39: React.FC = () => {
           <div className="absolute left-[4.344in] top-[8.9351in] ">          
             <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
               Expansion Learning Table
-              <div className="mt-2 h-[1px] w-[3.405in] bg-[#4b5846]" />
+              <div className="mt-2 h-[2px] w-[3.405in] bg-[#4b5846]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
@@ -209,7 +208,7 @@ const Page39: React.FC = () => {
 
                 {/* Footer */}
           <div className="absolute left-[7.5in] top-[10.5169in] flex items-center gap-[1rem] text-black text-[0.5rem] w-[3.5in]">
-            <span>10 of 134</span>
+            <span>39 of 134</span>
             <Image
               src="/icons/footer.svg"
               alt="Page Number"
