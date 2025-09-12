@@ -2,24 +2,6 @@
 
 import React from "react";
 import LetterPage from "../components/LetterPage";
-
-const Page63: React.FC = () => {
-  return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
-      <LetterPage backgroundColor="white">
-        <div className="text-center text-lg font-bold text-gray-700">
-          Page 63 content goes here.
-        </div>
-      </LetterPage>
-    </div>
-  );
-};
-
-export default Page63;
-"use client";
-
-import React from "react";
-import LetterPage from "../components/LetterPage";
 import Image from "next/image";
 
 // Re-usable pill
@@ -34,7 +16,7 @@ const Pill2 = ({ label }: { label: string }) => (
   </div>
 );
 
-const page63: React.FC = () => {
+const Page63: React.FC = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
       <LetterPage backgroundColor="white">
@@ -112,7 +94,7 @@ const page63: React.FC = () => {
               width={1}
               height={1}
               sizes={`${6.6 * 96}px`}
-              className="left-[5.2663in] top-[5.0053in] w-[0.4787in] h-[0.2.188in] absolute z-1"
+              className="left-[5.2663in] top-[5.0053in] w-[0.4787in] h-[0.2188in] absolute z-1"
               priority
             />
         
@@ -191,4 +173,4 @@ const page63: React.FC = () => {
   );
 };
 
-export default page63;
+export default Page63;
