@@ -38,10 +38,10 @@ const Page81: React.FC = () => {
           />
           <div className="absolute left-[0.75in] top-[0.3323in] flex items-center whitespace-nowrap">
             <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
-              Production Solution »
+              Product Solution »
             </span>
-            <span className="ml-1 font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
-            Floor 4 & 5
+            <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+            Floors 4 & 5
             </span>
           </div>
 
@@ -59,15 +59,15 @@ const Page81: React.FC = () => {
 
 
           {/* Right spec block */}
-          <div className="absolute left-[6.124in] top-[1.2206in] w-[2.1in] text-[#4b5846]">
-            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[18pt]">
+          <div className="absolute left-[6.1274in] top-[1.2206in] w-[2.1in] text-[#4b5846]">
+            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[22pt]">
               <p>Spec</p>
               
               <p>Credenza</p>
             </div>
             <div className="mt-2 text-[#333] z-1">
               <div className="font-[Diagramm-Regular] text-[8.5pt] leading-[11pt]">
-                <div className="mb-2 h-[2px] w-[157px] bg-[#7b7f78]" />
+                <div className="mb-2 h-[2px] w-[157px] bg-[#333]" />
                 <span className="text-[#333]">Credenza</span>
                 <div className="mt- font-[Diagramm-Bold]">CR-1</div>
                 <div className="font-[Diagramm-Bold]">Spec</div>
@@ -138,9 +138,9 @@ const Page81: React.FC = () => {
             />          
           {/* Expansion table */}
           <div className="absolute left-[0.7558in] top-[8.9351in] ">          
-            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
+            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[22pt] text-[#4b5846]">
               Quorum Multiconference
-              <div className="mt-2 mb-2 h-[1px] w-[3.405in] bg-[#4b5846]" />
+              <div className="mt-2 mb-2 h-[2px] w-[3.405in] bg-[#333]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
@@ -180,9 +180,9 @@ const Page81: React.FC = () => {
 
           {/* Expansion Casegoods */}
           <div className="absolute left-[4.344in] top-[8.9351in] ">          
-            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
+            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[22pt] text-[#4b5846]">
               Expansion Casegoods
-              <div className="mt-2 mb-2 h-[1px] w-[3.405in] bg-[#4b5846]" />
+              <div className="mt-2 mb-2 h-[2px] w-[3.405in] bg-[#333]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">

@@ -38,9 +38,9 @@ const page56: React.FC = () => {
           />
           <div className="absolute left-[0.75in] top-[0.3323in] flex items-center whitespace-nowrap">
             <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
-              Production Solution »
+              Product Solution »
             </span>
-            <span className="ml-1 font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+            <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
               Floor 2
             </span>
           </div>
@@ -54,15 +54,15 @@ const page56: React.FC = () => {
 
 
           {/* Right spec block */}
-          <div className="absolute left-[6.124in] top-[0.8681in] w-[2.1in] text-[#4b5846]">
-            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[18pt]">
+          <div className="absolute left-[6.1274in] top-[1.2206in] w-[2.1in] text-[#4b5846]">
+            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[22pt]">
               <p>Quorum</p>
               <p>Multiconference</p>
             </div>
             <div className="mt-2 text-[#333] z-1">
               <div className="font-[Diagramm-Regular] text-[8.5pt] leading-[11pt]">
-                <div className="mb-2 h-[2px] w-[120px] bg-[#7b7f78]" />
-                <span className="text-[#7b7f78]">Adjustable Height Table</span>
+                <div className="mb-2 h-[2px] w-[1.625in] bg-[#333]" />
+                <span className="text-[#333]">Adjustable Height Table</span>
                 <div className="mt- font-[Diagramm-Bold]">T-4</div>
                 <div className="font-[Diagramm-Bold]">Groupe Lacasse</div>
                 <div>$2,952.06</div>
@@ -75,9 +75,9 @@ const page56: React.FC = () => {
           </div>
 
           {/* Top product image  */}
-          <div className="absolute left-[0.748in] top-[1.2206in] w-[5.2161in] h-[5.1636in] z-0">
+          <div className="absolute left-[0.748in] top-[1.2206in] w-[5.2161in] h-[4.1636in] z-0">
             <Image
-              src="/images/page56/asset_p56_1_20250819_134102.png"
+              src="/images/page56/asset_p56_1_20250913_114116.png"
               alt="table"
               fill
               className="object-contain"
@@ -105,7 +105,7 @@ const page56: React.FC = () => {
           <div className="absolute left-[0.75in] top-[6.1106in] w-[5.2161in]">
             <div className="relative h-[4.1636in] w-full">
               <Image
-                src="/images/page56/asset_p56_1_20250819_134117.png"
+                src="/images/page56/asset_p56_1_20250913_114123.png"
                 alt="Expansion Learning Table"
                 fill
                 className="object-contain"
@@ -126,14 +126,14 @@ const page56: React.FC = () => {
             />          
           {/* Expansion table */}
           <div className="absolute left-[6.124in] top-[6.1042in] ">          
-            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
+            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[22pt] text-[#4b5846]">
               <p>hiSpace </p>
               <p>Table</p>
-              <div className="mt-2 mb-2 h-[1px] w-[1.625in] bg-[#4b5846]" />
+              <div className="mt-2 mb-2 h-[2px] w-[1.625in] bg-[#4b5846]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
-              <div className="text-[#7b7f78]">Adjustable Height Table</div>
+              <div className="text-[#333]">Adjustable Height Table</div>
               <div className="font-[Diagramm-Bold]">T-4 </div>
               <div className="font-[Diagramm-Bold]">Teknion</div>
               <div>$3,112.83</div>

@@ -38,9 +38,9 @@ const page43: React.FC = () => {
           />
           <div className="absolute left-[0.75in] top-[0.3323in] flex items-center whitespace-nowrap">
             <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
-              Production Solution »
+              Product Solution »
             </span>
-            <span className="ml-1 font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+            <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
               Floor 1
             </span>
           </div>
@@ -54,16 +54,16 @@ const page43: React.FC = () => {
 
 
           {/* Right spec block */}
-          <div className="absolute left-[6.124in] top-[0.8681in] w-[2.1in] text-[#4b5846]">
-            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[18pt]">
+          <div className="absolute left-[6.1274in] top-[1.2206in] w-[2.1in] text-[#4b5846]">
+            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[22pt]">
              <p> Metal Storage </p>
               
              <p> Furniture </p>
             </div>
             <div className="mt-2 text-[#333] z-1">
               <div className="font-[Diagramm-Regular] text-[8.5pt] leading-[11pt]">
-                <div className="mb-2 h-[2px] w-[120px] bg-[#7b7f78]" />
-                <span className="text-[#7b7f78]">Filing</span>
+                <div className="mb-2 h-[2px] w-[1.625in] bg-[#333]" />
+                <span className="text-[#333]">Filing</span>
                 <div className="mt- font-[Diagramm-Bold]">FS-1</div>
                 <div className="font-[Diagramm-Bold]">Groupe Lacasse</div>
                 <div>$736.59</div>
@@ -78,7 +78,7 @@ const page43: React.FC = () => {
           {/* Top product image  */}
           <div className="absolute left-[0.7535in] top-[1.2206in] w-[5.2161in] h-[4.1636in] z-0">
             <Image
-              src="/images/page43/export_1_20250819_130049.png"
+              src="/images/page43/asset_p43_1_20250913_100352.png"
               alt="table"
               fill
               className="object-contain"
@@ -127,14 +127,14 @@ const page43: React.FC = () => {
             />          
           {/* Expansion table */}
           <div className="absolute left-[6.124in] top-[6.1042in] ">          
-            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
+            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[22pt] text-[#4b5846]">
               <p>Ledger</p>
                <p>Storage</p>
-              <div className="mt-2 mb-2 h-[1px] w-[1.625in] bg-[#4b5846]" />
+              <div className="mt-2 mb-2 h-[2px] w-[1.625in] bg-[#333]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
-              <div className="text-[#7b7f78]">Filing</div>
+              <div className="text-[#333]">Filing</div>
               <div className="font-[Diagramm-Bold]">FS-1</div>
               <div className="font-[Diagramm-Bold]">Teknion</div>
               <div>$693.42</div>

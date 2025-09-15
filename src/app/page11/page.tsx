@@ -40,7 +40,7 @@ const page11: React.FC = () => {
           <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846] mr-1">
             Executive Summary »
           </span>
-          <span className="font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+          <span className="font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
             Attachment A (Continued)
           </span>
         </div>

@@ -38,9 +38,9 @@ const Page65: React.FC = () => {
           />
           <div className="absolute left-[0.75in] top-[0.3323in] flex items-center whitespace-nowrap">
             <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
-              Production Solution »
+              Product Solution »
             </span>
-            <span className="ml-1 font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+            <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
               Floor 2
             </span>
           </div>
@@ -77,7 +77,7 @@ const Page65: React.FC = () => {
               <div className="text-[#333]">Single Bed</div>
               <div className="font-[Diagramm-Bold]">B-1 ALT</div>
               <div className="font-[Diagramm-Bold]">Spec</div>
-              <div>$3983.26</div>
+              <div>$3,983.26</div>
             </div>
           </div>
 

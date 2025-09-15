@@ -4,13 +4,213 @@ import React from "react";
 import LetterPage from "../components/LetterPage";
 import Image from "next/image";
 
+// Re-usable pill
+const Pill = ({ label }: { label: string }) => (
+  <div className="inline-flex items-center w-[1.4326in] h-[0.36in] justify-center rounded-full px-4 py-1 text-[9pt] font-[Diagramm-Bold] text-[#4b5846] bg-[#e3e9e2] shadow-[0_1px_0_rgba(0,0,0,0.04)]">
+    {label}
+  </div>
+);
+const Pill2 = ({ label }: { label: string }) => (
+  <div className="inline-flex items-center w-[1.4326in] h-[0.36in] justify-center rounded-full px-4 py-1 text-[9pt] font-[Diagramm-Bold] text-black border-1 border-[#4b5846] shadow-[0_1px_0_rgba(0,0,0,0.04)]">
+    {label}
+  </div>
+);
+
 const Page84: React.FC = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-100 p-4">
       <LetterPage backgroundColor="white">
-        <div className="text-center text-lg font-bold text-gray-700">
-          Page 84 content goes here.
-        </div>
+        <div className="relative w-[8.5in] h-[11in] ">
+          {/* Icon + header */}
+          <Image
+            src="/icons/headline_icon_2.svg"
+            alt="Production Summary"
+            width={1}
+            height={1}
+            className="absolute left-[0.2842in] top-[0.338in] w-[0.1815in] h-[0.199in]"
+          />
+          <Image
+            src="/icons/header-vert-line.png"
+            alt="vertical line"
+            width={1}
+            height={1}
+            className="absolute left-[0.6071in] top-[0.2951in] w-[0.01in] h-[0.3in] z-[1]"
+          />
+          <div className="absolute left-[0.75in] top-[0.3323in] flex items-center whitespace-nowrap">
+            <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+              Product Solution »
+            </span>
+            <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+            Floors 4 & 5
+            </span>
+          </div>
+
+          {/* Main Title */}
+          <div className="absolute left-[0.75in] top-[0.675in]  text-[#4b5846]">
+            <div className="flex items-baseline flex-nowrap">
+              <span className="mr-2 whitespace-nowrap font-[LarkenDEMO-Light] text-[26.4pt] leading-[31.68pt]">
+                Living Space » 
+              </span>
+              <span className="min-w-0 whitespace-normal font-[LarkenDEMO-Light] text-[26.4pt] leading-[31.68pt]">
+                408A, 508A
+              </span>
+            </div>
+          </div>
+
+
+          {/* Right spec block */}
+          <div className="absolute left-[6.1274in] top-[1.2206in] w-[2.1in] text-[#4b5846]">
+            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[22pt]">
+              <p>Stad</p>
+              
+              <p>Table</p>
+            </div>
+            <div className="mt-2 text-[#333] z-1">
+              <div className="font-[Diagramm-Regular] text-[8.5pt] leading-[11pt]">
+                <div className="mb-2 h-[2px] w-[157px] bg-[#333]" />
+                <span className="text-[#333]">Dining table</span>
+                <div className="mt- font-[Diagramm-Bold]">T-8</div>
+                <div className="font-[Diagramm-Bold]">Groupe Lacasse</div>
+                <div>$1,485.98</div>
+              </div>
+            </div>
+          </div>
+
+          {/* pills */}
+          <div>
+            <div className="absolute left-[6.3176in] top-[5.0154in]">
+                <Pill label="Finishes" />
+            </div>
+          </div>
+
+          {/* Top product image  */}
+          <div className="absolute left-[0.748in] top-[1.2206in] w-[5.2161in] h-[4.1636in] z-0">
+            <Image
+              src="/images/page84/asset_p84_1_20250903_142909.png"
+              alt="table"
+              fill
+              className="object-contain"
+              sizes={`${6.6 * 96}px`}
+              priority
+            />
+          </div>
+        
+
+              {/* logo */}
+            <Image
+              src="/icons/groupelacasse.png"
+              alt="groupelacasse Logo"
+              width={1}
+              height={1}
+              sizes={`${6.6 * 96}px`}
+              className="left-[5.2663in] top-[5.0053in] w-[0.4787in] h-[0.2188in] absolute z-1"
+              priority
+            />
+        
+          {/*  Horizontal divider (middle of page) */}
+          <div className="absolute left-[0.748in] top-[5.745in] h-[1px] w-[7.001in] bg-[#e7e7e7]" />
+
+                  {/* Bottom-left product */}
+          <div className="absolute left-[0.748in] top-[6.1106in] w-[3.4128in]">
+            <div className="relative h-[2.75in] w-full">
+              <Image
+                src="/images/page84/asset_p84_1_20250903_142914.png"
+                alt="Expansion Learning Table"
+                fill
+                className="object-contain"
+                sizes={`${3.45 * 96}px`}
+              />
+            </div>
+          </div>
+
+              {/* top logo */}
+            <Image
+              src="/icons/spec.png"
+              alt="Spec Logo"
+              width={1}
+              height={1}
+              sizes={`${6.6 * 96}px`}
+              className="left-[3.6848in] top-[8.6299in] w-[0.3136in] h-[0.085in] absolute z-1"
+              priority
+            />          
+          {/* bottom left table */}
+          <div className="absolute left-[0.7558in] top-[8.9351in] ">          
+            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[22pt] text-[#4b5846]">
+              Parkdale Table
+              <div className="mt-2 mb-2 h-[2px] w-[1.79in] bg-[#333]" />
+            </div>
+
+            <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
+              <div className="text-[#333]">Dining Table</div>
+              <div className="font-[Diagramm-Bold]">T-8</div>
+              <div className="font-[Diagramm-Bold]">Spec</div>
+              <div>$2,494.76</div>
+            </div>
+          </div>
+          {/* pill */}
+          <div className="absolute left-[2.7253in] top-[9.3558in]">
+                  <Pill2 label="Brochure" />
+            </div>
+          <div className="absolute left-[2.7253in] top-[9.9029in]">
+                <Pill label="Finishes" />
+          </div>
+
+                  {/* Bottom-right product */}
+          <div className="absolute left-[4.3362in] top-[6.1106in] w-[3.4in]">
+            <div className="relative h-[2.7in] w-full">
+              <Image
+                src="/images/page84/asset_p84_1_20250903_142917.png"
+                alt="Manhattan Flip Top Table"
+                fill
+                className="object-contain"
+                sizes={`${3.45 * 96}px`}
+              />
+            </div>
+          </div>
+             {/* bottom right logo */}
+            <Image
+              src="/icons/teknion.png"
+              alt="teknion Logo"
+              width={1}
+              height={1}
+              sizes={`${6.6 * 96}px`}
+              className="left-[7.2859in] top-[8.6513in] w-[0.3727in] h-[0.0803in] absolute z-1"
+              priority
+            /> 
+
+          {/* bottom left text */}
+          <div className="absolute left-[4.344in] top-[8.9351in] ">          
+            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[22pt] text-[#4b5846]">
+               Zones Table
+              <div className="mt-2 mb-2 h-[2px] w-[3.405in] bg-[#333]" />
+            </div>
+
+            <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
+              <div className="text-[#333]">Dining Tables</div>
+              <div className="font-[Diagramm-Bold]">T-8</div>
+              <div className="font-[Diagramm-Bold]">Teknion</div>
+              <div>$2,627.00</div>
+            </div>
+          </div>
+          {/* pill */}
+          <div>
+            <div className="absolute left-[6.3176in] top-[9.9054in]">
+                    <Pill label="Finishes" />
+            </div>
+          </div>
+
+          {/* Footer */}
+          <div className="absolute left-[0.2326in] top-[10.5169in] flex items-center gap-[1rem] text-black text-[0.5rem] w-[3.5in]">
+            <Image
+              src="/icons/footer.svg"
+              alt="Page Number"
+              width={1} height={1}
+              className="select-none w-[0.2848in] h-[0.2848in]"
+            />
+            <span>84 of 134</span>
+          </div>
+      </div>
+
       </LetterPage>
     </div>
   );

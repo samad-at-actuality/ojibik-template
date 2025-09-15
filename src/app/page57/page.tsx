@@ -38,9 +38,9 @@ const Page57: React.FC = () => {
           />
           <div className="absolute left-[0.75in] top-[0.3323in] flex items-center whitespace-nowrap">
             <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
-              Production Solution »
+              Product Solution »
             </span>
-            <span className="ml-1 font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+            <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
               Floor 2
             </span>
           </div>
@@ -57,7 +57,7 @@ const Page57: React.FC = () => {
           {/* Top product image  */}
           <div className="absolute left-[0.748in] top-[1.2206in] w-[6.9883in] h-[7.42in] z-0">
             <Image
-              src="/images/page57/asset_p57_1_20250819_134354.png"
+              src="/images/page57/asset_p57_1_20250913_114729.png"
               alt="table"
               fill
               className="object-contain"
@@ -68,9 +68,9 @@ const Page57: React.FC = () => {
                     
           {/* Expansion table */}
           <div className="absolute left-[0.7558in] top-[8.9351in] ">          
-            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
+            <div className=" font-[LarkenDEMO-Light] text-[24pt] leading-[16pt] text-[#4b5846]">
               Belize Mobile Lounge Chair
-              <div className="mt-2 mb-2 h-[1px] w-[7.001in] bg-[#4b5846]" />
+              <div className="mt-2 mb-2 h-[2px] w-[7.001in] bg-[#333]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">
@@ -92,7 +92,7 @@ const Page57: React.FC = () => {
               width={1}
               height={1}
               sizes={`${6.6 * 96}px`}
-              className="left-[6.793in] top-[8.3627in] w-[0.7787in] h-[0.171in] absolute z-1"
+              className="left-[6.793in] top-[8.3627in] w-[0.7935in] h-[0.171in] absolute z-1"
               priority
             /> 
 

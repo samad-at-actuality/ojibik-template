@@ -38,9 +38,9 @@ const page61: React.FC = () => {
           />
           <div className="absolute left-[0.75in] top-[0.3323in] flex items-center whitespace-nowrap">
             <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
-              Production Solution »
+              Product Solution »
             </span>
-            <span className="ml-1 font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+            <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
               Floor 2
             </span>
           </div>
@@ -54,7 +54,7 @@ const page61: React.FC = () => {
 
 
           {/* Right spec block */}
-          <div className="absolute left-[6.124in] top-[1.49151in] w-[2.1in] text-[#4b5846]">
+          <div className="absolute left-[6.1274in] top-[1.2206in] w-[2.1in] text-[#4b5846]">
             <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[18pt]">
               Neocase Bed
             </div>
@@ -76,7 +76,7 @@ const page61: React.FC = () => {
           {/* Top product image  */}
           <div className="absolute left-[0.7535in] top-[1.2206in] w-[5.2161in] h-[4.1636in] z-0">
             <Image
-              src="/images/page61/asset_p61_1_20250819_134425.png"
+              src="/images/page61/asset_p61_1_20250913_122831.png"
               alt="table"
               fill
               className="object-contain"

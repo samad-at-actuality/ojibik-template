@@ -75,7 +75,7 @@ const Page12: React.FC = () => {
           <span className="mr-1 font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
             Executive Summary »
           </span>
-          <span className="font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+          <span className="font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
             Criteria Checklist
           </span>
         </div>
