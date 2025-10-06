@@ -28,7 +28,7 @@ const Page38: React.FC = () => {
               <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#ffffff]">
                 Production Solution »
               </span>
-              <span className="ml-1 font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#ffffff]">
+              <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#ffffff]">
                 Lookbook
               </span>
             </div>
@@ -41,7 +41,7 @@ const Page38: React.FC = () => {
             </div>
 
             <Image
-              src="/images/page38/asset_p38_1_20250820_114358.png"
+              src="/images/page38/asset_p38_1_20250913_112940.png"
               alt="Production Summary"
               fill
               sizes={`${6.6 * 96}px`}

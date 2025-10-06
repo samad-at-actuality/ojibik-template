@@ -38,9 +38,9 @@ const page52: React.FC = () => {
           />
           <div className="absolute left-[0.75in] top-[0.3323in] flex items-center whitespace-nowrap">
             <span className="font-[Diagramm-Bold] text-[15pt] leading-[17.5pt] text-[#4b5846]">
-              Production Solution »
+              Product Solution »
             </span>
-            <span className="ml-1 font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-[#4b5846]">
+            <span className="ml-1 font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-[#4b5846]">
               Floor 2
             </span>
           </div>
@@ -54,15 +54,15 @@ const page52: React.FC = () => {
 
 
           {/* Right spec block */}
-          <div className="absolute left-[6.124in] top-[0.8681in] w-[2.1in] text-[#4b5846]">
-            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[18pt]">
+          <div className="absolute left-[6.1274in] top-[1.2206in] w-[2.1in] text-[#4b5846]">
+            <div className="font-[LarkenDEMO-Light] text-[20pt] leading-[22pt]">
               <p>Quorum</p>
              
               <p>Multiconference</p>
             </div>
             <div className="mt-2 text-[#333] z-1">
               <div className="font-[Diagramm-Regular] text-[8.5pt] leading-[11pt]">
-                <div className="mb-2 h-[2px] w-[120px] bg-[#7b7f78]" />
+                <div className="mb-2 h-[2px] w-[1.625in] bg-[#7b7f78]" />
                 <span className="text-[#7b7f78]">Metting Table</span>
                 <div className="mt- font-[Diagramm-Bold]">T-1 ALT</div>
                 <div className="font-[Diagramm-Bold]">Groupe Lacasse</div>
@@ -76,9 +76,9 @@ const page52: React.FC = () => {
           </div>
 
           {/* Top product image  */}
-          <div className="absolute left-[0.748in] top-[1.2206in] w-[5.2161in] h-[5.1636in] z-0">
+          <div className="absolute left-[0.75in] top-[1.2206in] w-[5.2161in] h-[4.1636in] z-0">
             <Image
-              src="/images/page52/asset_p52_1_20250819_134020.png"
+              src="/images/page52/asset_p52_1_20250913_102052.png"
               alt="table"
               fill
               className="object-contain"
@@ -106,7 +106,7 @@ const page52: React.FC = () => {
           <div className="absolute left-[0.75in] top-[6.1106in] w-[5.2161in]">
             <div className="relative h-[4.1636in] w-full">
               <Image
-                src="/images/page52/asset_p52_1_20250827_155640.png"
+                src="/images/page52/asset_p52_1_20250913_102057.png"
                 alt="Expansion Learning Table"
                 fill
                 className="object-contain"
@@ -127,10 +127,10 @@ const page52: React.FC = () => {
             />          
           {/* Expansion table */}
           <div className="absolute left-[6.124in] top-[6.1042in] ">          
-            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[16pt] text-[#4b5846]">
+            <div className=" font-[LarkenDEMO-Light] text-[20pt] leading-[22pt] text-[#4b5846]">
               <p>Expansion </p>
               <p>Learning table</p>
-              <div className="mt-2 mb-2 h-[1px] w-[1.625in] bg-[#4b5846]" />
+              <div className="mt-2 mb-2 h-[2px] w-[1.625in] bg-[#4b5846]" />
             </div>
 
             <div className=" absolute  text-[9pt] leading-[11pt] text-[#333] font-[Diagramm-Regular]">

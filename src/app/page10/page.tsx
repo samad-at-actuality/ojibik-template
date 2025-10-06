@@ -33,7 +33,7 @@ const page10: React.FC = () => {
             Executive Summary »
           </span>
           {/* exact gap */}
-          <span className="  font-[LarkenDEMO-Light] text-[15pt] leading-[17.5pt] text-black">
+          <span className="  font-[LarkenDEMO-Medium] text-[15pt] leading-[17.5pt] text-black">
             Attachment A
           </span>
         </div>
